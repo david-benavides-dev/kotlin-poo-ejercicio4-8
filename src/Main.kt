@@ -1,3 +1,7 @@
+import classes.Libro
+
 fun main() {
-    println("Hello World!")
+    var libro1 = Libro("Esparrago", "Zapatilla", 5, 11)
+
+
 }
