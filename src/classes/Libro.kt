@@ -17,11 +17,9 @@ class Libro(val titulo: String, val autor: String, val numPaginas: Int, califica
             }
         }
 
-
     init {
         require(calificacion in 0..10) {"La calificación debe estar entre 0 y 10."}
     }
-
 
     /**
      * Devuelve una representación del libro.

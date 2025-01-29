@@ -30,7 +30,6 @@ class ConjuntoLibros(private val tamanioLibreria: Int) {
         return false
     }
 
-
     /**
      * Elimina un libro del conjunto por su título.
      *
@@ -46,7 +45,6 @@ class ConjuntoLibros(private val tamanioLibreria: Int) {
         }
         return false
     }
-
 
     /**
      * Elimina un libro del conjunto por su autor.
@@ -64,7 +62,6 @@ class ConjuntoLibros(private val tamanioLibreria: Int) {
         return false
     }
 
-
     /**
      * Muestra el libro con la mayor calificación de la librería.
      * Si no hay libros, mostrará que no hay libros en la librería.
@@ -74,7 +71,6 @@ class ConjuntoLibros(private val tamanioLibreria: Int) {
         println("Libro con mayor calificacion: \n${libroMayor ?: "No hay libros en la librería"}")
     }
 
-
     /**
      * Muestra el libro con la menor calificación de la librería.
      * Si no hay libros, mostrará que no hay libros en la librería.
@@ -83,7 +79,6 @@ class ConjuntoLibros(private val tamanioLibreria: Int) {
         val libroMayor = librosGuardados.filterNotNull().maxByOrNull { it.calificacion }
         println("Libro con menor calificacion: \n${libroMayor ?: "No hay libros en la librería."}")
     }
-
 
     /**
      * Muestra todos los libros guardados en la librería.
@@ -99,5 +94,4 @@ class ConjuntoLibros(private val tamanioLibreria: Int) {
             }
         }
     }
-
 }
