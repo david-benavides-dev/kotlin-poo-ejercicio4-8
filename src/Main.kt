@@ -47,7 +47,7 @@ fun main() {
 
     libreria.mostrarLibros()
 
-    // * Se añade un libro a la librería y se muestra el contenido final.
+    // * Se añade un libros a la librería y se muestra el contenido final.
 
     println("**********************")
 
